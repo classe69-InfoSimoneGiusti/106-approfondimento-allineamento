@@ -1,0 +1,55 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+
+
+#contenitore {
+    width: 300px;
+    height: 300px;
+    text-align: center;
+    border: solid 3px #ff0000;
+}
+
+#contenuto {
+    line-height: 300px;  /* <- il trucco sta qui! */
+}
+
+
+
+hr {
+    margin: 50px 0px;
+}
+
+h1 {
+    margin-bottom:20px;
+}
+
+
+/*
+
+The vertical-align property in CSS controls how elements set next to each other on a line are lined up. In order for this to work, the elements need to be set along a baseline. As in, inline (e.g. <span> , <img> ) or inline-block (e.g. as set by the display property) elements.
+
+https://css-tricks.com/almanac/properties/v/vertical-align/
+
+*/
+
+#simulazione-header {
+    background-color: lightgray;
+    border: solid 1px grey;
+    height: 100px; 
+}
+
+#logo-testo {
+    font-size: 24px;
+    color: green;
+    vertical-align: middle; /* <- il trucco sta qui! */
+}
+
+#logo-immagine {
+    height: 100%;
+    vertical-align: middle; /* <- il trucco sta qui! */
+}
